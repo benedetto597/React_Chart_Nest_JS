@@ -56,7 +56,7 @@ ____
   ```
   mysql -h nombre_servidor -u nombre_usuario -p nombre_base_datos
 
-  mysql -h localhost -u admin -p todosApp
+  mysql -h localhost -u admin -p chartApp
   ```
 
 
