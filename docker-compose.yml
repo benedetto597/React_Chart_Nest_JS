@@ -1,0 +1,21 @@
+version: "2.4"
+
+services:
+  mysql:
+    container_name: ChartApp
+    image: mysql:5.7.25
+    volumes:
+      - mysql-volume:/var/lib/mysql
+    ports:
+      - "3307:3307"
+    hostname: VIP
+    environment:
+      MYSQL_DATABASE: 'charApp'
+      MYSQL_USER: 'admin'
+      MYSQL_PASSWORD: 'admin'
+      MYSQL_ROOT_PASSWORD: 'admin'
+
+volumes: 
+  mysql-volume:
+    external: true
+    
