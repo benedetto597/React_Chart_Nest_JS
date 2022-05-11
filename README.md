@@ -62,7 +62,7 @@ ____
 
   * Conectarse a mysql con el usuario root y cambiar zona horaria
   ```
-  docker exec -it TodosApp mysql -uroot -p 
+  docker exec -it ChartApp mysql -uroot -p 
 
   pass: admin
 
@@ -135,8 +135,3 @@ ____
   ```
   npm start
   ```
-##### Opcionales
-
-4. Prueba de la documentación con Swagger
-[Swagger | API Documentación](http://localhost:3000/api)
-
